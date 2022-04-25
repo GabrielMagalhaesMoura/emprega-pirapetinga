@@ -57,3 +57,34 @@ a:link, a:visited, a:active{
 footer {
     background: lightsteelblue;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 120%;
+    }
+    p {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 120%;
+    }
+    p {
+        font-size: 90%;
+    }
+}
+
